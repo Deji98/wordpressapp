@@ -1,0 +1,277 @@
+.settings-parent {
+  margin-top: 100px;
+  margin-left: 83px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.settings-body {
+  width: 1100px;
+  background-color: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+}
+
+.access-flex {
+  display: flex;
+  /* align-items: center; */
+  gap: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.multisite-flex {
+  display: flex;
+  /* align-items: center; */
+  gap: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bbPress-flex {
+  display: flex;
+  /* align-items: center; */
+  gap: 235px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.roles-flex {
+  display: flex;
+  /* align-items: center; */
+  gap: 270px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.superadmin-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 20px 17px 30px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  width: 300px;
+  /* height: 60px; */
+}
+
+.manageoptions-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 20px 17px 30px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.hidepluggins-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 20px 17px 30px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.multisite-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 20px 17px 30px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.multisite-checkbox2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 16px 20px 17px 30px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.roles-flex textarea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 20px 18px 30px;
+  gap: 10px;
+  width: 525px;
+  height: 63px;
+  background: #f3f3f3;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+}
+
+.settings-btn {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.settings-btn button {
+  width: 264px;
+  height: 66px;
+  color: white;
+  /* background: #1c3387; */
+  background-color: var(--button-color);
+  box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
+  border-radius: 12px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 900px) {
+  .settings-parent {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .settings-body {
+    width: 350px;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+  }
+  .access-flex {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .multisite-flex {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .bbPress-flex {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .roles-flex {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .manageoptions-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 20px 17px 30px;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .hidepluggins-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 20px 17px 30px;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .multisite-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 20px 17px 30px;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .multisite-checkbox2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 16px 20px 17px 30px;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .roles-flex textarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 20px 18px 30px;
+    gap: 10px;
+    width: 300px;
+    height: 63px;
+    background: #f3f3f3;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+  }
+}

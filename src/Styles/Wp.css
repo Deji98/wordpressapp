@@ -1,0 +1,325 @@
+.Wp-parent {
+  margin-top: 100px;
+  margin-left: 63px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-body01,
+.wp-body02,
+.wp-body03 {
+  width: 600px;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+}
+
+.wp-users,
+.wp-roles {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.default-text p {
+  color: #9a9da0;
+}
+
+.wp-default {
+  display: flex;
+  /* align-items: center; */
+  gap: 120px;
+  padding: 20px;
+}
+
+#wp-themes {
+  width: 400px;
+  height: 43px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+
+.wp-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #e4e4e4;
+  border-radius: 12px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.wp-body002 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.flex-parent {
+  display: flex;
+  gap: 20px;
+}
+
+.wp-body004 {
+  width: 580px;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+}
+
+.wp-body05 {
+  width: 580px;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.wp-body06 {
+  width: 580px;
+  max-width: 100%;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.wp-firstroles {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+#wp-first {
+  width: 300px;
+  height: 43px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding-left: 10px;
+}
+
+.first-default {
+  display: flex;
+  /* align-items: center; */
+  gap: 90px;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.core-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.core-contents textarea {
+  width: 250px;
+  height: 40px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+}
+
+#last-checkbox {
+  width: 250px;
+  height: 40px;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.wp-btn button {
+  width: 264px;
+  height: 66px;
+  color: white;
+  background: #1c3387;
+  box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 900px) {
+  .Wp-parent {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .wp-body01,
+  .wp-body02,
+  .wp-body03 {
+    width: 350px;
+    /* width: auto; */
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+  }
+
+  .wp-users,
+  .wp-roles {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    padding-top: 30px;
+  }
+
+  .wp-default {
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+    padding: 20px;
+  }
+
+  #wp-themes {
+    width: 180px;
+    height: 43px;
+    background: #f3f3f3;
+    border: 1px solid #e4e4e4;
+    border-radius: 12px;
+    padding-left: 10px;
+  }
+
+  .wp-body004 {
+    width: 350px;
+    /* width: auto; */
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+  }
+
+  .wp-body04 {
+    width: 350px;
+    /* width: auto; */
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+  }
+
+  .wp-body05 {
+    width: 350px;
+    /* width: auto; */
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+
+  .wp-body06 {
+    width: 350px;
+    /* width: auto; */
+    max-width: 100%;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 30px;
+  }
+
+  #wp-first {
+    width: 180px;
+    height: 43px;
+    background: #f3f3f3;
+    border: 1px solid #e4e4e4;
+    border-radius: 12px;
+    padding-left: 10px;
+  }
+
+  .wp-firstroles {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 30px;
+  }
+
+  .first-default {
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .wp-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+    height: 40px;
+    background: #ffffff;
+    border: 2px solid #e4e4e4;
+    border-radius: 12px;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  #last-checkbox {
+    width: 150px;
+    height: 40px;
+    background: #f3f3f3;
+    border: 1px solid #e4e4e4;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .wp-btn button {
+    width: 200px;
+    height: 56px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    background: #1c3387;
+    box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .login-text,
+  .logout-text,
+  .reg-text {
+    margin-left: 20px;
+  }
+}

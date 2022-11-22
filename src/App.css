@@ -1,0 +1,365 @@
+.themes-parent {
+  margin-top: 100px;
+  /* margin-left: 70px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.themes {
+  margin-left: 70px;
+}
+
+.box {
+  padding: 30px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  background: var(--boxx-color);
+  border: 1px transparent;
+  border-radius: 20px;
+}
+
+.boxx {
+  display: flex;
+  gap: 80px;
+  margin-left: 70px;
+  color: var(--box-color);
+}
+
+#log {
+  width: 400px;
+  height: 42px;
+  padding-left: 15px;
+  background: var(--boxx-color);
+  color: var(--box-color);
+  border: 1px transparent;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#error {
+  width: 400px;
+  height: 42px;
+  padding-left: 15px;
+  background: var(--boxx-color);
+  color: var(--box-color);
+  border: 1px transparent;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.url-example {
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+.url-example-child {
+  display: flex;
+  gap: 30px;
+}
+
+.url-example2 {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+.url-example2-child {
+  display: flex;
+  gap: 30px;
+}
+
+.url-text a {
+  text-decoration: none;
+}
+
+.checkbox {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-left: -10px;
+}
+
+.hide-register {
+  font-size: small;
+  width: 320px;
+  height: 40px;
+  background: var(--boxx-color);
+  border: 1px transparent #dfdfdf;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hide-back {
+  font-size: small;
+  width: 400px;
+  height: 40px;
+  /* background: #f9fafc; */
+  background: var(--boxx-color);
+  border: 1px transparent #dfdfdf;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.active-parent {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 320px;
+  height: 42px;
+  /* background: #ffffff; */
+  background: var(--boxx-color);
+  border: 1px transparent #dfdfdf;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+.edit-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 42px;
+  /* background: #f9fafc; */
+  background: var(--boxx-color);
+  border: 1px transparent #dfdfdf;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-image {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.home-image p {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.adobe-image {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .themes {
+    margin-left: 0px;
+  }
+  .themes-parent {
+    margin-top: 50px;
+    /* margin-left: 0px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    border: 1px transparent;
+    border-radius: 20px;
+  }
+
+  .boxx {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .url-example {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+  }
+  .url-example2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    justify-items: center;
+  }
+  .url-example-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .url-example2-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .url-text {
+    /* max-width: 100%;
+    width: 800px; */
+    text-align: center;
+  }
+
+  .active-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .checkbox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  #log {
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    background: var(--boxx-color);
+    color: var(--box-color);
+    border: 1px transparent;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  #error {
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    background: var(--boxx-color);
+    color: var(--box-color);
+    border: 1px transparent;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .hide-register {
+    font-size: small;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* margin-left: 70px; */
+  }
+
+  .hide-back {
+    font-size: small;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* margin-left: 70px; */
+    /* margin-right: -20px; */
+  }
+
+  .active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 300px;
+    height: 42px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: -10px; */
+    margin-bottom: 20px;
+    /* margin-left: 60px; */
+  }
+
+  .edit-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 42px;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 60px; */
+  }
+
+  .sudo-active,
+  .sudo-edit,
+  .sudo-reg,
+  .sudo-back {
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+  }
+}
+
+/* <BrowserRouter>
+<Routes>
+  <Route path='/' element={<Sharedlayout />}>
+    <Route index element={<Homepage />} />
+    <Route path='LoginThemes' element={<Loginthemes />} />
+    <Route path='Adminmenu' element={<Adminmenu />} />
+    <Route path='Metaboxes' element={<Metaboxes />} />
+    <Route path='Settings' element={<Settings />} />
+    <Route path='Wp' element={<Wp />} />
+    <Route path='Branding' element={<Branding />} />
+  </Route>
+  <Route path='*' element={<Error />} />
+</Routes>
+</BrowserRouter> */
