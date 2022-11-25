@@ -19,24 +19,24 @@ const Branding = () => {
       <button>save</button>
       </div>
       <div className='branding-links'>
-      <Link  className='b-link' style={{width:"45px", height:"35px", backgroundColor:"#DFDFDF", border:"1px solid #DFDFDF", borderRadius:"8px", display:"flex", alignItems:"center",  justifyContent:"center"}}   to="/">All</Link>
-      <Link  className='b-link' style={{width:"116px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="/Loginthemes">Administrator</Link>
-      <Link  className='b-link' style={{width:"66px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Branding">Editor</Link>
-      <Link  className='b-link' style={{width:"73px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Adminmenu">Author</Link>
-      <Link  className='b-link' style={{width:"103px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Metaboxes">Contributor</Link>
-      <Link  className='b-link' style={{width:"94px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Wp">Subscriber</Link>
-      <Link  className='b-link' style={{width:"158px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Settings">Current user(Demo)</Link>
-      <Link  className='b-link' style={{width:"107px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Wp">Choose user</Link>
+      <Link  className='b-link' style={{width:"45px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px", display:"flex", alignItems:"center",  justifyContent:"center"}}   to="/">All</Link>
+      <Link  className='b-link' style={{width:"116px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="/Loginthemes">Administrator</Link>
+      <Link  className='b-link' style={{width:"66px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Branding">Editor</Link>
+      <Link  className='b-link' style={{width:"73px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Adminmenu">Author</Link>
+      <Link  className='b-link' style={{width:"103px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Metaboxes">Contributor</Link>
+      <Link  className='b-link' style={{width:"94px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Wp">Subscriber</Link>
+      <Link  className='b-link' style={{width:"158px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Settings">Current user(Demo)</Link>
+      <Link  className='b-link' style={{width:"107px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Wp">Choose user</Link>
       </div>
       <div className='mobile-branding-links'>
-      <Link  className='b-link' style={{width:"45px", height:"35px", backgroundColor:"#DFDFDF", border:"1px solid #DFDFDF", borderRadius:"8px", display:"flex", alignItems:"center",  justifyContent:"center"}}   to="/">All</Link>
-      <Link  className='b-link' style={{width:"116px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="/Loginthemes">Administrator</Link>
-      <Link  className='b-link' style={{width:"66px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Branding">Editor</Link>
-      <Link  className='b-link' style={{width:"73px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Adminmenu">Author</Link>
-      <Link  className='b-link' style={{width:"103px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Metaboxes">Contributor</Link>
-      <Link  className='b-link' style={{width:"94px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Wp">Subscriber</Link>
-      <Link  className='b-link' style={{width:"158px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Settings">Current user(Demo)</Link>
-      <Link  className='b-link' style={{width:"107px", height:"35px", backgroundColor:"#FFFFFF", border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Wp">Choose user</Link>
+      <Link  className='b-link' style={{width:"45px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px", display:"flex", alignItems:"center",  justifyContent:"center"}}   to="/">All</Link>
+      <Link  className='b-link' style={{width:"116px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="/Loginthemes">Administrator</Link>
+      <Link  className='b-link' style={{width:"66px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Branding">Editor</Link>
+      <Link  className='b-link' style={{width:"73px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Adminmenu">Author</Link>
+      <Link  className='b-link' style={{width:"103px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Metaboxes">Contributor</Link>
+      <Link  className='b-link' style={{width:"94px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Wp">Subscriber</Link>
+      <Link  className='b-link' style={{width:"158px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}} to="Settings">Current user(Demo)</Link>
+      <Link  className='b-link' style={{width:"107px", height:"35px",  border:"1px solid #DFDFDF", borderRadius:"8px",  display:"flex", alignItems:"center",  justifyContent:"center"}}  to="Wp">Choose user</Link>
       </div>
       </div>
       <div className='body01'>
@@ -214,7 +214,7 @@ const Branding = () => {
       </div>
       <div className='wordlogo'>
       <input type="checkbox" id="b-hide3" name="hide" />
-      <label htmlFor="hide screen"> Remove the WordPress logo from the <a style={{color:"black"}} href='#admin' target="_blank">admin bar</a></label>
+      <label htmlFor="hide screen"> Remove the WordPress logo from the <a className='wordlogo-admin' href='#admin' target="_blank">admin bar</a></label>
         </div>
     </div>
     <hr />
@@ -241,7 +241,7 @@ const Branding = () => {
         <p>Logo Link url</p>
       </div>
       <div className='text'>
-        <textarea  rows="2" column="40" placeholder='Enter or paste a link URL' />
+        <textarea  rows="1" column="40" placeholder='Enter or paste a link URL' />
       </div>
     </div>
     <hr />
@@ -250,7 +250,7 @@ const Branding = () => {
         <p>Custom <a className='text-color' href='#b' target="_blank">"Howdy"</a>  text</p>
       </div>
       <div className='text'>
-        <textarea  rows="2" column="40" placeholder='Enter or paste a link URL' />
+        <textarea  rows="1" column="40" placeholder='Enter or paste a link URL' />
       </div>
       </div>
       <p className='custom-howdy-text'>Enter the greeting to use instead of “howdy”. Example: <a className='branding-text' href='#b' target="_blank">Welcome.</a><br />
@@ -284,15 +284,15 @@ const Branding = () => {
         <p>WordPress update <br /> notifications</p>
       </div>
       <div className='user-radio'>
-      <div style={{width:"200px", height:"36px", background: '#FFFFFF', border: '1px solid #1C3387', borderRadius: "12px", textAlign:"center", paddingTop:"7px", paddingRight:"10px"}}> 
-      <input type="radio" name="radio" />
+      <div className='wordPress-rad'> 
+      <input type="radio" name="radio" id='input-radio' />
       <label htmlFor='text'>Show to all users</label> </div>
-      <div style={{width:"350px", height:"36px", background: '#FFFFFF', border: '1px solid #1C3387', borderRadius: "12px", textAlign:"center", paddingTop:"7px", paddingRight:"10px", marginTop:"10px"}}>
-      <input type="radio" name="radio" />
+      <div className='wordPress-rad2'>
+      <input type="radio" name="radio" id='input-radio' />
       <label htmlFor='text'>Show to users who can install updates</label>
       </div>
-     <div style={{width:"200px", height:"36px", background: '#FFFFFF', border: '1px solid #1C3387', borderRadius: "12px", textAlign:"center", paddingTop:"7px", paddingRight:"10px", marginTop:"10px"}}>
-     <input type="radio" name="radio" />
+     <div className='wordPress-rad3'>
+     <input type="radio" name="radio" id='input-radio' />
       <label htmlFor='text'>Hide from all users</label>
      </div>
     

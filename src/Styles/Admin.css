@@ -4,12 +4,14 @@
 
 .admin-parent {
   margin-top: 100px;
-  margin-left: 83px;
+  /* margin-left: 83px; */
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI";
+  font-style: normal;
 }
 
 .admin-body {
@@ -21,8 +23,9 @@
 #A-themes {
   width: 400px;
   height: 33px;
-  background: #ffffff;
-  border: 1px solid #dfdfdf;
+  background-color: var(--body-color);
+  color: var(--text-color);
+  border: 1px solid transparent;
   border-radius: 6px;
   padding-left: 10px;
 }
@@ -31,7 +34,7 @@
 .posts,
 .pages,
 .comments,
-/* .link, */
+.link-t,
 .media,
 .appearance,
 .plugin,
@@ -51,8 +54,8 @@
   margin: 20px;
   /* width: 300px; */
   height: 44px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
 }
 
@@ -68,8 +71,8 @@
   margin-left: 70px;
   /* width: 300px; */
   height: 44px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
 }
 
@@ -83,8 +86,8 @@
   margin: 20px;
   /* width: 300px; */
   height: 44px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
 }
 
@@ -100,16 +103,20 @@
   width: 400px;
   /* margin-left: 162px; */
   margin-top: 50px;
-  background: #f9fafc;
-  border: 1px solid #dfdfdf;
+  /* background: #f9fafc; */
+  background-color: var(--admin-background);
+  color: var(--text-color);
+  border: 1px solid transparent;
   border-radius: 30px;
 }
 
 .admin-body02 {
   width: 400px;
   /* margin-left: 162px; */
-  background: #f9fafc;
-  border: 1px solid #dfdfdf;
+  /* background: #f9fafc; */
+  background-color: var(--admin-background);
+  color: var(--text-color);
+  border: 1px solid transparent;
   border-radius: 30px;
 }
 
@@ -131,14 +138,19 @@
   gap: 10px;
   width: 62.5px;
   height: 62.5px;
-  background: #dfdfdf;
+  /* background: #dfdfdf; */
+  background: var(--admin-dashboard);
+  color: var(--text-color);
+  border: 1px solid transparent;
   border-radius: 12px;
 }
 
 .admin-body03 {
   width: 270px;
-  background: #f9fafc;
-  border: 1px solid #dfdfdf;
+  /* background: #f9fafc; */
+  background-color: var(--admin-background);
+  color: var(--text-color);
+  border: 1px solid transparent;
   border-radius: 20px;
   padding: 10px;
   padding-left: 20px;
@@ -149,8 +161,8 @@
   gap: 20px;
   /* width: 337.54px; */
   height: 44px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
   /* margin-top: 20px; */
   padding-top: 10px;
@@ -164,8 +176,8 @@
   justify-content: space-between;
   align-items: center;
   height: 44px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
   margin-top: 10px;
   padding: 10px;
@@ -176,8 +188,11 @@
   margin-top: 50px;
   width: 400px;
   height: 590px;
-  background: #ffffff;
-  border: 1px solid #e4e4e4;
+  /* background: #ffffff; */
+  background-color: var(--admin-background);
+  color: var(--text-color);
+  border: 1px solid;
+  border: 1px solid transparent;
   border-radius: 30px;
 }
 
@@ -195,8 +210,8 @@
   padding-left: 20px;
   margin: 20px;
   height: 44px;
-  background: #f3f3f3;
-  border: 1px solid #e4e4e4;
+  background: var(--admin-dashboard);
+  border: 1px solid transparent;
   border-radius: 12px;
 }
 
@@ -216,7 +231,8 @@
   width: 132px;
   height: 66px;
   color: white;
-  background: #1c3387;
+  background: var(--button-color);
+  border: transparent;
   box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
   border-radius: 12px;
   font-family: "Segoe UI";
@@ -227,6 +243,10 @@
   letter-spacing: 0.02em;
   margin-left: 20px;
   margin-top: 20px;
+}
+
+.adminbar-text {
+  color: var(--p-color);
 }
 
 @media screen and (max-width: 900px) {
@@ -249,8 +269,8 @@
   #A-themes {
     width: 250px;
     height: 33px;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
+    /* background: #ffffff;
+    border: 1px solid #dfdfdf; */
     border-radius: 6px;
     padding-left: 10px;
   }
@@ -258,7 +278,7 @@
     width: 132px;
     height: 66px;
     color: white;
-    background: #1c3387;
+    /* background: #1c3387; */
     box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
     border-radius: 12px;
     font-weight: 700;

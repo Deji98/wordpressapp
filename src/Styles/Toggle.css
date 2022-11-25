@@ -14,6 +14,13 @@
   --box-color: black;
   --boxx-color: #ffffff;
   --focus: #1c3387;
+  --b-active: #dfdfdf;
+  --radio-border: #1c3387;
+  --input-color: blue;
+  --hr-color: #bdbdbd;
+  --admin-background: #dfdfdf;
+  --admin-dashboard: #f9fafc;
+  --wp-bgcolor: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -32,11 +39,20 @@
   --box-color: white;
   --boxx-color: black;
   --focus: #dcc600;
+  --b-active: #3b444b;
+  --radio-border: #dcc600;
+  --input-color: #dcc600;
+  --hr-color: #2c3740;
+  --admin-background: #14181c;
+  --admin-dashboard: #3a454f;
+  --wp-bgcolor: #14181c;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--font-color);
+  font-family: "Segoe UI";
+  font-style: normal;
 }
 
 a {

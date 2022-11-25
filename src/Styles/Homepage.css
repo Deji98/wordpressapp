@@ -1,11 +1,13 @@
 .h-parent {
   margin-top: 100px;
-  margin-left: 83px;
+  /* margin-left: 83px; */
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI";
+  font-style: normal;
 }
 
 #themes {

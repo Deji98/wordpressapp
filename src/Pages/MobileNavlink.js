@@ -1,14 +1,14 @@
 import React from 'react'
 // import {BsToggle2Off} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import '../Styles/Navbar.css';
+// import '../Styles/Navbar.css';
 import Toggletheme from './Toggletheme';
 
 const MobileNavlink = () => {
   return (
     <div>
               <div className='m-parent'>
-    <div className='m-navlinks'>
+    <div  className='m-navlinks'>
     <Link className='link' style={{width:"116px", height:"35px", padding:"10px", paddingRight:"2px", paddingLeft:"10px"}} to="/">Admin Themes</Link>
       <Link className='link' style={{width:"109px", height:"35px", padding:"10px", paddingRight:"2px", paddingLeft:"10px"}} to="Loginthemes">Login Themes</Link>
       <Link className='link' style={{width:"94px", height:"35px", padding:"10px", paddingRight:"2px", paddingLeft:"10px"}} to="Branding">Branding</Link>

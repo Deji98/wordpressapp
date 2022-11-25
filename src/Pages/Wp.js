@@ -7,7 +7,7 @@ const Wp = () => {
     <div className='flex-parent'>
     <div> 
     <div>
-      <p className='login-text' style={{color:"#1C3387"}}>LOGIN REDIRECT</p>
+      <p className='login-text'>LOGIN REDIRECT</p>
       <div className='wp-body01'>
       <div className='wp-users'>
       <p>Users</p>
@@ -53,7 +53,7 @@ const Wp = () => {
 
 
       <div className='wp-body002'>
-      <p className='logout-text' style={{color:"#1C3387"}}>LOGOUT REDIRECT</p>
+      <p className='logout-text'>LOGOUT REDIRECT</p>
       <div className='wp-body02'>
       <div className='wp-users'>
       <p>Users</p>
@@ -102,7 +102,7 @@ const Wp = () => {
       </div>
 
       <div className='wp-body003'>
-      <p className='reg-text' style={{color:"#1C3387"}}>REGISTRATION REDIRECT</p>
+      <p className='reg-text'>REGISTRATION REDIRECT</p>
       <div className='wp-body03'>
       <div className='wp-default'>
       <p>All Users</p>
@@ -130,7 +130,7 @@ const Wp = () => {
       </div>
 
 <div>
-     <p className='login-text' style={{color:"#1C3387"}}>FIRST LOGIN REDIRECT</p>
+     <p className='login-text'>FIRST LOGIN REDIRECT</p>
       <div className='wp-body04'>
       <div className='wp-body004'>
       <div className='wp-firstroles'>

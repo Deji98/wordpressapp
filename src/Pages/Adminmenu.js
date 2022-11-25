@@ -59,7 +59,7 @@ const Adminmenu = () => {
           <p>Comments</p>
           <TbGripVertical />
         </div>
-        <div className='link'>
+        <div className='link-t'>
           <p>Links</p>
           <TbGripVertical />
         </div>
@@ -104,7 +104,7 @@ const Adminmenu = () => {
       </div>
       <div className='admin-body002'>
         <div className='body002-heading'>
-        <p className='adminbar-text' style={{color:"#1C3387"}}>ADMIN BAR MENU</p>
+        <p className='adminbar-text'>ADMIN BAR MENU</p>
         </div>
         <div className='admin-body02'>
         <div className='site'>

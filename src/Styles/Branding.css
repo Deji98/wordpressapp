@@ -1,10 +1,12 @@
 .b-parent {
   margin-top: 100px;
-  margin-left: 83px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Segoe UI";
+  font-style: normal;
 }
 
 .heading {
@@ -44,7 +46,7 @@
   height: 33px;
   background-color: var(--body-color);
   color: var(--text-color);
-  border: 1px solid #dfdfdf;
+  border: 1px solid transparent;
   border-radius: 6px;
   padding-left: 10px;
 }
@@ -63,7 +65,12 @@
 
 .b-link {
   text-decoration: none;
-  color: black;
+  background-color: var(--select-background);
+  color: var(--navbackground-color);
+}
+
+.b-link:active {
+  background-color: var(--b-active);
 }
 
 .recommended-size {
@@ -260,7 +267,7 @@
   width: 38px;
   height: 40px;
   border: transparent;
-  border-right: 1px solid black;
+  border-right: 1px solid transparent;
   border-radius: 0px;
 }
 
@@ -320,9 +327,13 @@
   gap: 5px;
   width: 417px;
   height: 36px;
-  background: #ffffff;
-  border: 1px solid #bdbdbd;
+  background-color: var(--box);
+  border: 1px solid var(--box);
   border-radius: 12px;
+}
+
+.wordlogo-admin {
+  color: var(--box-color);
 }
 
 .fill-image {
@@ -331,7 +342,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px 5px;
-  background: #ffffff;
+  background: var(--box);
   border: 2px dashed #bdbdbd;
   border-radius: 12px;
   width: 200px;
@@ -348,7 +359,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
+  background: var(--box);
   border: 1px solid #bdbdbd;
   border-radius: 12px;
   width: 166px;
@@ -361,7 +372,7 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
+  background: var(--box);
   border: 1px solid #bdbdbd;
   border-radius: 12px;
   width: 166px;
@@ -371,8 +382,9 @@
 
 .text textarea {
   width: 300px;
-  background: #ffffff;
-  border: 1px solid #bdbdbd;
+  background: var(--box);
+  border: 1px solid transparent;
+  color: var(--text-color);
   border-radius: 12px;
   padding-left: 10px;
   padding-top: 10px;
@@ -434,7 +446,7 @@
 
 .text2 textarea {
   width: 400px;
-  background: #ffffff;
+  background: var(--box);
   border: 1px solid #bdbdbd;
   border-radius: 12px;
   padding-left: 10px;
@@ -483,10 +495,65 @@
   margin-bottom: 20px;
 }
 
+.wordPress-rad {
+  width: 200px;
+  height: 36px;
+  background: var(--box);
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 7px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.wordPress-rad:active,
+.wordPress-rad2:active,
+.wordPress-rad3:active {
+  border: 1px solid var(--radio-border);
+}
+
+.wordPress-rad2 {
+  width: 350px;
+  height: 36px;
+  background: var(--box);
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 7px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.wordPress-rad3 {
+  width: 200px;
+  height: 36px;
+  background: var(--box);
+  border-radius: 12px;
+  text-align: center;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+
+#input-radio,
+#b-hide,
+#b-hide2,
+#b-hide3,
+#v-hide,
+#notices-hide,
+#option-hide,
+#logo-hide,
+#admin-hide,
+#version-remove,
+#version-remove2 {
+  accent-color: var(--input-color);
+}
 .sender,
 .from-email {
   display: flex;
   gap: 85px;
+}
+
+hr {
+  border: 1px solid var(--hr-color);
 }
 
 @media screen and (max-width: 900px) {
@@ -515,8 +582,9 @@
     width: 400px;
     height: 535px;
     /* padding-left: 40px; */
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border: 1px solid var(--body-color);
     border-radius: 20px;
     margin-bottom: 0px;
     /*  */
@@ -525,8 +593,9 @@
   .second-body01 {
     width: 400px;
     height: 765px;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border: 1px solid var(--box);
     border-radius: 20px;
     margin-bottom: 20px;
     /* margin-left: auto; */
@@ -549,8 +618,8 @@
     gap: 5px;
     width: 90%;
     height: 36px;
-    background: #ffffff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--box);
+    border: 1px solid var(--box);
     border-radius: 12px;
     padding-right: 10px;
     margin-bottom: 15px;
@@ -564,8 +633,8 @@
     gap: 5px;
     width: 90%;
     height: 36px;
-    background: #ffffff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--box);
+    border: 1px solid var(--box);
     border-radius: 12px;
     padding-right: 10px;
     margin-bottom: 20px;
@@ -579,8 +648,8 @@
     gap: 5px;
     width: 90%;
     height: 36px;
-    background: #ffffff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--box);
+    border: 1px solid var(--box);
     border-radius: 12px;
     margin-bottom: 15px;
     margin-left: 30px;
@@ -593,8 +662,8 @@
     gap: 5px;
     width: 90%;
     height: 36px;
-    background: #ffffff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--box);
+    border: 1px solid var(--box);
     border-radius: 12px;
     margin-left: 30px;
   }
@@ -606,8 +675,8 @@
     gap: 5px;
     width: 90%;
     height: 36px;
-    background: #ffffff;
-    border: 1px solid #bdbdbd;
+    background-color: var(--box);
+    border: 1px solid var(--box);
     border-radius: 12px;
   }
 
@@ -621,8 +690,9 @@
 
   .body02 {
     width: 100%;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border: 1px solid var(--body-color);
     border-radius: 20px;
     padding-left: 20px;
     margin-left: 0px;
@@ -666,8 +736,9 @@
   #b-themes {
     width: 300px;
     height: 33px;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border: 1px solid transparent;
     border-radius: 6px;
     padding-left: 10px;
   }
@@ -679,13 +750,13 @@
   }
 
   .recommended-size {
-    color: blue;
+    color: var(--p-color);
     margin-left: 0px;
   }
 
   .text textarea {
     width: 300px;
-    background: #ffffff;
+    background: var(--box);
     border: 1px solid #bdbdbd;
     border-radius: 12px;
     padding-left: 10px;
@@ -695,7 +766,7 @@
 
   .text2 textarea {
     width: 300px;
-    background: #ffffff;
+    background: var(--box);
     border: 1px solid #bdbdbd;
     border-radius: 12px;
     padding-left: 10px;
@@ -706,7 +777,7 @@
     width: 240px;
     height: 66px;
     margin-left: 0px;
-    background: #1c3387;
+    background: var(--button-color);
     box-shadow: 6px 6px 20px rgba(28, 51, 135, 0.25);
     border-radius: 12px;
     border: transparent;

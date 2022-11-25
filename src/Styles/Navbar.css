@@ -16,11 +16,12 @@
   height: 45px;
   margin-left: 150px;
   margin-top: 60px;
+  font-family: "Segoe UI";
+  font-style: normal;
 }
 
 .link {
   text-decoration: none;
-  color: var(--select-background);
   background-color: var(--select-background);
   color: var(--navbackground-color);
   border: 1px transparent;
@@ -61,16 +62,16 @@
     justify-items: center;
     gap: 20px;
     padding: 30px;
-    /* background-color: white; */
-    margin-left: 20px;
     width: 80%;
+    font-family: "Segoe UI";
+    font-style: normal;
   }
 
   .m-navlinks {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    gap: 20px;
   }
   .desktop {
     display: none;
@@ -85,8 +86,6 @@
     justify-content: center;
     gap: 5px;
     align-items: center;
-    background: #ffffff;
-    border: 1px solid #dfdfdf;
     border-radius: 6px;
   }
 

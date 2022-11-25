@@ -27,7 +27,7 @@ const Settings = () => {
   <p style={{marginTop:"10px"}}>Login: Demo, user ID: 1</p>
 
   <div className='hidepluggins-checkbox'>
-  <input type="checkbox" name="checkbox" />
+  <input type="checkbox" name="checkbox" width="600px" />
   <label htmlFor="hide screen">Hide this pluggin from the PLUGGINS page for other users</label>
   </div>
   </div>
@@ -37,11 +37,11 @@ const Settings = () => {
   <p>Multisite settings</p>
   <div className='multisite-parent'> 
   <div className='multisite-checkbox'>
-  <input type="radio" name="radio" />
+  <input type="radio" name="radio" width="600px" />
   <label htmlFor="hide screen">Global - use the same admin menu settings fro all network sites</label>
   </div>
   <div className='multisite-checkbox2'>
-  <input type="radio" name="radio" />
+  <input type="radio" name="radio" width="600px"  />
   <label htmlFor="hide screen">Pre-site - Use different admin menu settings for each use</label>
   </div>
   </div>
@@ -51,12 +51,12 @@ const Settings = () => {
   <p>bbPress override</p>
   <div className='multisite-parent'> 
   <div className='multisite-checkbox'>
-  <input type="checkbox" name="checbox" />
+  <input type="checkbox" name="checbox" width="600px"  />
   <label htmlFor="hide screen">Prevent bbPress from resetting role capacity</label>
   </div>
   <p style={{marginTop:"10px"}}>By deafult , bbPress will automatically undo any changes that are made to dynamic bbPress roles. Enable this override that behaviour and make it possible to change bbPress role capabilities.</p>
   <div className='multisite-checkbox2'>
-  <input type="checkbox" name="checkbox" />
+  <input type="checkbox" name="checkbox" width="600px"  />
   <label htmlFor="hide screen">Attempt to override menu icon CSS that was added by other pluggins</label>
   </div>
   </div>
